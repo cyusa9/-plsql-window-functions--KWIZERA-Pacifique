@@ -5,3 +5,6 @@ every historical buy and sell action, providing a complete audit trail. To compl
 table offers a current snapshot of each user's portfolio. By linking these tables through foreign keys,
 the design effectively separates historical data from current ownership, enabling powerful and
 efficient analytical queries.
+
+
+

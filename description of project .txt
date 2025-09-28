@@ -1,0 +1,7 @@
+This database is architected to support a brokerage firm's analytical needs by tracking client trading activity.   
+The schema is built on four core, interrelated tables. The Users table contains essential client information, 
+while the Stocks table catalogs all tradable assets. At the heart of the system, the Transactions table logs
+every historical buy and sell action, providing a complete audit trail. To complement this, the Holdings 
+table offers a current snapshot of each user's portfolio. By linking these tables through foreign keys,
+the design effectively separates historical data from current ownership, enabling powerful and
+efficient analytical queries.
